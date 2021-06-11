@@ -1,8 +1,16 @@
-#include "stdio.h"
+#include <stdio.h>
+#include "index_header.h"
+
 #define ver 0.2
 
 int main()
 {
+
+    typedef struct main_node_struct{
+        int value;
+        int * right_branch;
+        int * left_branch;
+    } mns;
 
     int option = 0;
 
@@ -17,10 +25,23 @@ int main()
         printf("Please, insert one of the options above:");
         scanf("%i", &option);
 
-        if (option == 0)
+        switch (option)
         {
-            printf("\nBye!\n");
+        case 1:
+
+            break;
+
+        case 2:
+            break;
+
+        case 8:
+            printf("\n\nCreated by Enzo Franzini\n\n");
+            break;
+
+        default:
+            printf("\nBye!\n\n");
             return 0;
+            break;
         }
     }
 }

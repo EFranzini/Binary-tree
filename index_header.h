@@ -1,4 +1,5 @@
-
+void insert_value();
+void track_value();
 
 // a.h:
 

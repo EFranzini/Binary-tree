@@ -7,3 +7,8 @@
 **Version 0.2**
 * Added looping menu.
 * Bugfix: Now, the program version just display the first decimal digit.
+
+**Version 0.3**
+* Added node struct
+* Added header file
+* Added insert and track functions and it's headers on header file
